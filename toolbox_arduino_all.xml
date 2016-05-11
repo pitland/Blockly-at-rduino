@@ -898,7 +898,49 @@
 		</category>
 		<sep></sep>
 	</category>
-
+	<category name="CAT_EDUCADUINO" colour="#FF0000">
+		<category name="CAT_EDUCADUINO_LCD" colour="#FF0000">
+			<block type="EDU_LCD_initialisation"></block>
+			<block type="EDU_LCD_position"></block>
+			<block type="EDU_LCD_ecrire"></block>
+			<block type="EDU_LCD_afficher"></block>
+			<block type="EDU_LCD_effacer"></block>
+		</category>
+		<category name="CAT_EDUCADUINO_NUNCHUCK" colour="#FF0000">
+			<block type="EDU_NUN_initialisation"></block>
+			<block type="EDU_NUN_lecture"></block>
+			<block type="EDU_NUN_verifie"></block>
+			<block type="EDU_NUN_boutonC"></block>
+			<block type="EDU_NUN_boutonZ"></block>
+			<block type="EDU_NUN_valeurX"></block>			
+			<block type="EDU_NUN_valeurY"></block>
+			<block type="EDU_NUN_inclinaisonX"></block>
+			<block type="EDU_NUN_inclinaisonY"></block>
+			<block type="EDU_NUN_inclinaisonZ"></block>
+		</category>
+		<category name="CAT_EDUCADUINO_RADAR" colour="#FF0000">
+			<block type="EDU_RADAR_initialisation"></block>
+			<block type="EDU_RADAR_verifie"></block>
+			<block type="EDU_RADAR_lecture"></block>
+			<block type="EDU_RADAR_vitesse"></block>
+		</category>
+		<category name="CAT_EDUCADUINO_TFT" colour="#FF0000">
+			<block type="EDU_TFT_initialisation"></block>
+			<block type="EDU_TFT_couleur_AR_plan_scroll"></block>
+			<block type="EDU_TFT_couleur_AR_plan_texte"></block>
+			<block type="EDU_TFT_parametre_caractere"></block>
+			<block type="EDU_TFT_ecrire_texte"></block>
+		</category>
+		<category name="CAT_EDUCADUINO_capteurs" colour="#ff0000">
+			<block type="EDU_GAZMQ7_sensor"></block>
+			<block type="EDU_GAZMQ135_sensor"></block>
+			<block type="EDU_GAZMQ2_sensor"></block>
+			<block type="EDU_ECG_sensor"></block>
+		</category>
+		<category name="CAT_EDUCADUINO_actionneurs" colour="#FF0000">
+			<block type="EDU_moteur"></block>
+		</category>
+	</category>	
 	<category name="CAT_GROVE" colour="#8ec31f">
 		<category name="CAT_GROVE_IN" colour="#8ec31f">
 			<block type="grove_button"></block>

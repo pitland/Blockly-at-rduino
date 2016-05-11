@@ -467,6 +467,14 @@ Blockly.Msg.CAT_GROVE_OUT = "actionneurs";
 Blockly.Msg.CAT_GROVE_LCD = "écran LCD";
 Blockly.Msg.CAT_GROVE_COMM = "communication";
 
+Blockly.Msg.CAT_EDUCADUINO = "Educaduino";  //added may 10th 2016
+Blockly.Msg.CAT_EDUCADUINO_LCD = "Ecran LCD";
+Blockly.Msg.CAT_EDUCADUINO_NUNCHUCK = "Nunchuck";
+Blockly.Msg.CAT_EDUCADUINO_RADAR = "Radar";
+Blockly.Msg.CAT_EDUCADUINO_TFT= "Ecran TFT";
+Blockly.Msg.CAT_EDUCADUINO_capteurs = "capteurs";
+Blockly.Msg.CAT_EDUCADUINO_actionneurs = "actionneurs";
+
 Blockly.Msg.CAT_TECHNOZONE = "TechnoZone51";  //added march 11th 2015
 Blockly.Msg.CAT_TECHNOZONE_IN = "capteurs";
 Blockly.Msg.CAT_TECHNOZONE_OUT = "actionneurs";
@@ -660,6 +668,9 @@ Blockly.Msg.CONV_tochar="convertir en char ";
 Blockly.Msg.CONV_tobyte="convertir en Byte ";
 Blockly.Msg.CONV_toint="convertir en Int ";
 Blockly.Msg.CONV_tofloat="convertir en Float ";
+
+
+
 
 //added april 6th 2015
 Blockly.Msg.GROVE_INOUT_DHT_HELPURL = "https://github.com/adafruit/DHT-sensor-library";
@@ -1244,3 +1255,11 @@ Blockly.Msg.MBOT_MOTOR_RIGHT_PWM = "moteur droit : puissance";
 
 //Added May 1rst 2016 
 Blockly.Msg.ROMEO_HELPURL = "http://www.dfrobot.com/wiki/index.php/Romeo_V2-All_in_one_Controller_%28R3%29_%28SKU:DFR0225%29";
+
+//Added may 10th 2016 
+Blockly.Msg.EDU_HELPURL = "http://www.educaduino.fr";
+Blockly.Msg.EDU_GAZMQ7_TOOLTIP = "Monoxyde de carbone MQ7";
+Blockly.Msg.EDU_INOUT_GAZMQ7_HELPURL = "http://www.educaduino.fr";
+Blockly.Msg.EDU_INOUT_GAZMQ7_TEXT = "Monoxyde de carbonne";
+Blockly.Msg.EDU_INOUT_GAZMQ7_INPUT = "mesuré sur la broche";
+Blockly.Msg.EDU_INOUT_GAZMQ7_TOOLTIP = "renvoie le niveau Monoxyde de carbone";
